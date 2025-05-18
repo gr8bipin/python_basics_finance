@@ -1,0 +1,82 @@
+Good programmers worry about data structures and their relationships.
+—Linus Torvalds
+
+### Chapter- 1
+
+
+## Introducing data structures: Why you should learn about data structures
+
+In this chapter - 
+1. welcome to this book
+2. what are data structures
+3. why do you need data structures
+4. examples of data structures making a difference
+5. step-by-step guidelines to apply data structures in a project
+..............................................................
+
+Data structures make the world go round: information is the gold of the Internet Age, and data structures are necessary for handling and making sense of information. Data structures allow us to shape data in meaningful ways and query it to find what is relevant to us.
+
+# WELCOME TO GROKKING DATA STRUCTURES:
+
+Welcome to Grokking Data Structures! I’m super excited to accompany you on this journey through data structures.
+
+In this book, I want to dispel some misconceptions about data structures: they are extremely useful in your everyday work. Even if you are not a researcher, they do make a difference, and they are not hard to learn: you do not need to
+be a math expert to understand and use data structures!
+
+During our journey, I will show you that data structures are not boring theoretical stuff. They have become part of our lives so much that I can claim you certainly use them
+regularly without even realizing it. Besides coding, you have used or seen in action some of the data structures we will describe in normal life situations.
+
+# DATA STRUCTURES ARE EVERYWHERE
+
+You don’t believe me? We could make it interesting with a little bet, but that would be so unfair of me!
+
+Let’s see. Do you ever go to a grocery or department store? When you go shopping, you fill your physical cart with items you want to buy: there it is, a container. But which
+container in particular? I don’t want to spoil it for you, but you’ll be able to tell after reading this book.
+
+Once you find everything you need, you go to the cashier to pay. While you wait your turn, you are literally in another data structure, a #queue!
+
+Did I manage to convince you? If you are a software developer, convincing you will be even easier because if you write code, you must have used at least arrays. Not to mention
+that, of course, if you are reading a digital version of this book, your e-reader uses many data structures to hold pages of the book, its words, the bookmarks you might add, and
+so on.
+
+# DATA STRUCTURES ARE FOR EVERYONE
+
+This book teaches data structures to anyone, regardless of their background. You don’t need advanced math; you don’t need to have taken CS101 or any other course; you don’t
+need to be a coding ninja, although some knowledge of Python might help. This book, like every book in the Grokking series, will provide you with an understanding of how
+things work, explaining what a data structure is, what the basic structures are, and how you can objectively decide which data structure is better for your task. It’s a book for
+beginners, meaning that it assumes no previous knowledge, and it relies on your intuition and visual memory. However, even if you are familiar with the subject, you might find it useful to brush up on your skills and get an even deeper understanding of some of the topics.
+
+# WHAT ARE DATA STRUCTURES?
+
+If you are reading this book, you are probably aware that we live in the so-called Age of Data, an era in which data has become an integral part of our lives. We are flooded with information, the production of which is accelerating at an unprecedented, exponential rate, fueled by technological advances. This stream of data is changing the way we live, work, and interact.
+
+To make sense of this huge amount of information and
+avoid being overwhelmed, we need to organize it somehow. That’s where data structures come in.
+
+Data structures are a way of organizing and storing information in a computer or a program. They help to efficiently manage and manipulate data.
+
+For example, if you want to find out whether a friend from school is on Facebook, you can. This is only possible because there is a data structure that organizes users in a way
+that makes it easy and fast to search among a billion users.
+
+# Algorithms and data structures
+
+You often hear the term data structures used in conjunction with algorithms. In fact, you hear the term so often that you might ask whether they are the same thing. No, algorithms and data structures are not the same, although they are closely related.
+
+An algorithm is a set of well-defined instructions, a step-by-step procedure designed to solve a specific problem or perform a particular task. In our Facebook example, we use
+an algorithm that searches through all the users’ names and returns the most promising matches.
+
+A data structure is a way of organizing and storing data in a computer or a programming language. It defines the relationship between the data elements, the operations that
+can be performed, and the rules or constraints for accessing and modifying the data. Facebook users are stored in a database that organizes its data in a way that makes it
+efficient to search for users by name.
+
+NOTE: Algorithms are used to describe the operations performed on data structures. To use an analogy, data structures are like nouns, while algorithms are more like verbs.
+
+Data structures and algorithms are interdependent, just like a meaningful sentence in English requires subjects, objects, and verbs to describe an action.
+
+Data structures provide the organization and representation of information (the data), and algorithms serve as instructions for transforming that data. Each data structure
+implicitly defines algorithms for operations, such as adding, retrieving, and removing its elements.
+
+Some data structures are specifically designed to allow the efficient execution of certain algorithms, such as hash tables for key-based search. (Don’t worry if you don’t know
+these terms at this point: they’ll all be covered later in the book.)
+
+Thus, describing a data structure requires accurately explaining the algorithms behind its methods. In other words, in this book, you will learn about many algorithms.
